@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+
+  }
+
+  h1 {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      text-align: center;
+      background-color: lightblue;
+      width: 100%;
+      text-shadow: 0px 1px 1px;
+  }
+  h2 {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: lightskyblue;
+    width: auto;
+    text-align: center;
+  }
+  h3 {
+      font-family: Arial, Helvetica, sans-serif;
+      text-decoration: dashed;
+  }
+
+.topnav {
+      overflow: hidden;
+      background-color: #333;
+    }
+
+.topnav a {
+      float: left;
+      color: lightblue;
+      text-align: center;
+      padding: 10px;
+      text-decoration: none;
+      font-size: 25px;
+      width: 30%;
+      flex-grow: 1;
+}
+
+.topnav a:hover {
+      background-color: #ddd;
+      color: black;
+}
+
+.img {
+      display: block;
+      margin-left: 25%;
+      margin-right: 25%;
+      width: 50%;
+}
+
+.list {
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+    .img-container-sm {
+      display: flex;
+      margin: 0;
+      flex-grow: 1;
+    }
+    .img {
+      display: flex;
+    }
+
+
+    h1, h2 {
+      width: 100%;
+    }
+  }
+
+  #login-sm {
+      flex-grow: 1;
+  }
+  .contactinfo label {
+      margin-right: 5em;
+      margin-left: 5em;
+  }
+  /* Form Style */
+
+  form {
+      padding: 10px;
+  }
+
+  /* Fieldset Styles */
+
+  fieldset {
+      margin-bottom: 0.8em;
+  }
+  fieldset fieldset {
+      margin-top: 1em;
+      padding: 0.8em;
+      border: 1px solid #777;
+  }
+
+  legend {
+      font-size: 1.25em;
+  }
+  .contactinfo legend, .hvacinfo > legend, .schedule, .additionalinfo legend {
+      margin-left: -0.1em;
+      font-weight: bold;
+      font-family: Arial, Helvetica, sans-serif;
+      color: black;
+      text-decoration: underline;
+  }
+
+  #nameinput, #emailinput {
+      width: 25em;
+  }
+  #phoneinput {
+      width: 8em;
+  }
+  .schedule p {
+      width: 9.2em;
+      float: left;
+  }
+  .date-picker label {
+      position: absolute;
+      left: -10000px;
+  }
+
+  #submit {
+      border: none;
+      padding: 0.4em 0.6em;
+      background-color: #e3d5ba;
+      font-size: 1.25em;
+      border-radius: 10px;
+  }
